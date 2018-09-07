@@ -1,0 +1,9 @@
+
+# the .DS_Store files everywhere
+.DS_Store
+
+# the media directory
+/media
+
+# the favicon directory
+/favicon

@@ -1,0 +1,185 @@
+/*
+ * Welcome
+ */
+
+.welcome {
+	/*display: flex;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;*/
+	min-height: calc(100vh - 60px);
+}
+
+/* -- Projects -- */
+.welcome .projects .logo {
+	padding: 20px 0 25px;
+}
+
+.welcome .projects .logo .image {
+	display: inline-block;
+	width: 250px;
+}
+
+.welcome .projects .columns {
+	padding: 10px;
+	vertical-align: bottom;
+}
+
+.welcome .projects .columns .tile {
+	text-decoration: none;
+	outline: none;
+	display: block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+}
+
+.welcome .projects .columns .tile.x1 {
+	padding-top: 100%;
+}
+
+.welcome .projects .columns .tile.x2 {
+	padding-top: 200%;
+}
+
+.welcome .projects .columns .tile .tile-background {
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.welcome .projects .columns .tile .tile-background.secret-soil {
+	background-image: url('/media/thumbnail-secret-soil.jpg');
+}
+.welcome .projects .columns .tile .tile-background.another-sky {
+	background-image: url('/media/thumbnail-another-sky.jpg');
+}
+
+.welcome .projects .columns .tile .tile-background video {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.welcome .projects .columns .tile .tile-content {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 20px;
+	color: var(--light);
+}
+
+.welcome .projects .columns .tile .tile-content .enter {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	z-index: 3;
+	left: 20px;
+	right: 20px;
+	bottom: 20px;
+	height: auto;
+}
+
+/* -- Action -- */
+.welcome .action .columns {
+	padding: 10px;
+}
+.welcome .action .columns .tile {
+	text-decoration: none;
+	outline: none;
+	display: block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+}
+
+@media ( min-width: 640px )  {
+	.welcome {
+		padding: 20px 0;
+	}
+
+	.welcome .projects .logo {
+		padding: 10px 0 20px;
+	}
+
+	.welcome .projects .logo .image {
+		width: 90px;
+		animation: slideRight 4s forwards;
+	}
+
+	@keyframes slideRight {
+		0%, 40% {
+			transform: translateX(-60%);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
+
+	.welcome .action .columns .tile {
+		text-align: right;
+	}
+}
+
+@media ( min-width: 1040px ) {
+	.welcome .projects .logo .image {
+		width: 120px;
+	}
+}
+
+@media ( min-width: 1380px ) {}
+
+
+
+/* -- Reveal -- */
+.slow-reveal {
+	opacity: 0;
+	transition-property: transform, opacity;
+	transition-duration: 0.6s;
+	transition-timing-function: ease-out;
+}
+
+.slow-reveal.delay-20  { transition-delay: 0.2s; }
+.slow-reveal.delay-40  { transition-delay: 0.4s; }
+.slow-reveal.delay-60  { transition-delay: 0.6s; }
+.slow-reveal.delay-80  { transition-delay: 0.8s; }
+.slow-reveal.delay-100 { transition-delay: 1.0s; }
+.slow-reveal.delay-120 { transition-delay: 1.2s; }
+.slow-reveal.delay-140 { transition-delay: 1.4s; }
+.slow-reveal.delay-160 { transition-delay: 1.6s; }
+.slow-reveal.delay-180 { transition-delay: 1.8s; }
+.slow-reveal.delay-200 { transition-delay: 2.0s; }
+
+.slow-reveal.fade-up {
+	transform: translateY(100px);
+}
+
+.slow-reveal.fade-down {
+	transform: translateY(-100px);
+}
+
+.slow-reveal.fade-left {
+	transform: translateX(100px);
+}
+
+.slow-reveal.fade-right {
+	transform: translateX(-100px);
+}
+
+.slow-reveal.done { /* ~ Always Last ~ */
+	opacity: 1;
+	transform: translate(0);
+}
