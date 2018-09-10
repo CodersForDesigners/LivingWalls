@@ -45,19 +45,19 @@
 
 	<?php echo gethead(); ?>
 
-	<?php
-		/*
-		 * Determine the user's (client's) device and browser situation,
-		 * 	in order to determine the level of experience of serve to them
-		 */
-		require_once __DIR__ . '/inc/client-info.php';
-	?>
-
 </head>
 
 <body id="body" class="body">
 
 <!--  ★  MARKUP GOES HERE  ★  -->
+
+<?php
+	/*
+	 * Determine the user's (client's) device and browser situation,
+	 * 	in order to determine the level of experience of serve to them
+	 */
+	require_once __DIR__ . '/inc/client-info.php';
+?>
 
 <div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
 

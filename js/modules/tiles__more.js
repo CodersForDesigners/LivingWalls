@@ -26,8 +26,8 @@ onceVariableIsSet( "__SETTINGS.client.baseExperience" ).then( function ( baseExp
 	var $window = $( window );
 	var screenWidth = $window.width();
 
-	// On small screens
-	if ( screenWidth < 640 ) {
+	// If the user *cannot* "hover", play the videos regardless
+	if ( ! __SETTINGS.user.canHover ) {
 		$videos.each( function ( _i, el ) {
 			$( el ).get( 0 ).play();
 		} )

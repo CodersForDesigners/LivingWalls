@@ -12,6 +12,24 @@
 
 ?>
 
+<!-- Markup that is solely used for feature detection -->
+<div class="can-hover hidden"></div>
+
+<style type="text/css">
+
+	div.can-hover:after { content: "dunno"; }
+	@media ( max-width: 1040px ) {
+		div.can-hover:after { content: "maybe"; }
+	}
+	@media ( pointer: coarse ) {
+		div.can-hover:after { content: "no"; }
+	}
+	@media not ( pointer: coarse ) {
+		div.can-hover:after { content: "yes"; }
+	}
+
+</style>
+
 <script type="text/javascript">
 
 	function batteryIsBelow ( level ) {
@@ -45,5 +63,16 @@
 			client.baseExperience = client.saveData
 									|| client.batteryIsPoor;
 		} )
+
+
+	__SETTINGS.user = { };
+	/*
+	 * Can user hover
+	 */
+	var userCanHover = getComputedStyle( document.getElementsByClassName( "can-hover" )[ 0 ], ":after" ).content.replace( /"/g, "" ).trim();
+	__SETTINGS.user.canHover = [ "dunno", "yes" ].indexOf( userCanHover ) !== -1;
+		// Add a flag in CSS as well
+	if ( __SETTINGS.user.canHover )
+		document.body.classList.add( "can-hover" );
 
 </script>
