@@ -75,7 +75,7 @@
 						</div>
 						<div class="tile-content">
 							<div class="p text-uppercase">Secret Soil</div>
-							<div class="h2 thin"><strong class="no-wrap">Outrageously Kick-ass</strong><br><span class="h3">4 BHK</span> <strong>Houses</strong></div>
+							<div class="h2 thin"><strong class="no-wrap">Secretly Kick-ass</strong><br><span class="h3">4 BHK</span> <strong>Houses</strong></div>
 							<div class="enter">
 								<div class="icon">
 									<img src="/media/icon-enter.svg">
