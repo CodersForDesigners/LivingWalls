@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180327';
+	$ver = '?v=20180912_2';
 
 	// included external php files with functions.
 	require ('inc/head.php');
