@@ -41,7 +41,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Page Title | Page Name -->
-	<title>Page Title <?php echo ( $viewName != "404" ? " | " . $viewName : "" ) ?></title>
+	<title>LivingWalls</title>
 
 	<?php echo gethead(); ?>
 
@@ -59,7 +59,7 @@
 	require_once __DIR__ . '/inc/client-info.php';
 ?>
 
-<div id="page-wrapper" data-page="<?php echo $viewName ?>"><!-- Page Wrapper -->
+<div id="page-wrapper"><!-- Page Wrapper -->
 
 	<div class="welcome">
 		<div class="container">
