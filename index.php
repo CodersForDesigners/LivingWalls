@@ -109,8 +109,8 @@
 			</div>
 			<div class="action row">
 				<div class="columns small-12 medium-6 large-4 large-offset-2 xlarge-3 xlarge-offset-3">
-					<a href="tel:+919986099860/secret-soil/" class="tile slow-reveal fade-down delay-80 js_contact_text">
-						<div class="h3 thin">Call <strong>+91 99860 99860</strong></div>
+					<a href="tel:+919663396979/secret-soil/" class="tile slow-reveal fade-down delay-80 js_contact_text">
+						<div class="h3 thin">Call <strong>+91 96633 96979</strong></div>
 					</a>
 				</div>
 			</div>
