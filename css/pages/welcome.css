@@ -74,6 +74,8 @@
 	bottom: 0;
 	padding: 20px;
 	color: var(--light);
+.welcome .projects .columns .tile .tile-content .p {
+	margin-bottom: 0.5rem;
 }
 
 .welcome .projects .columns .tile .tile-content .enter {
