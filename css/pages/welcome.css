@@ -51,6 +51,23 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.welcome .projects .columns .tile .tile-background {
+	filter: saturate( 0% ) brightness( 75% );
+}
+@media ( min-width: 640px ) {
+	.welcome .projects .columns .tile .tile-background {
+		filter: saturate( 140% ) brightness( 75% );
+	}
+}
+.can-hover .welcome .projects .columns .tile .tile-background {
+	filter: saturate( 0% ) brightness( 75% );
+	transition: filter 0.5s ease-in-out;
+}
+.can-hover .welcome .projects .columns .tile:hover .tile-background,
+.welcome .projects .columns .js-tile-on-hover .tile-background {
+	filter: saturate( 140% ) brightness( 75% );
+}
+
 
 .welcome .projects .columns .tile .tile-background.secret-soil {
 	background-image: url('/media/thumbnail-secret-soil.jpg');
@@ -63,6 +80,14 @@
 	position: relative;
 	display: inline-block;
 	width: 100%;
+	opacity: 0;
+
+	transition: opacity 0.6s ease-in-out 0s;
+}
+@media ( min-width: 640px ) {
+	.welcome .projects .columns .tile .tile-background video {
+		opacity: 1;
+	}
 }
 
 .welcome .projects .columns .tile .tile-content {
@@ -74,6 +99,8 @@
 	bottom: 0;
 	padding: 20px;
 	color: var(--light);
+	pointer-events: none;
+}
 .welcome .projects .columns .tile .tile-content .p {
 	margin-bottom: 0.5rem;
 }
@@ -181,4 +208,17 @@
 .slow-reveal.done { /* ~ Always Last ~ */
 	opacity: 1;
 	transform: translate(0);
+}
+
+
+.can-hover .fade-in-on-hover {
+	opacity: 0 !important;
+
+	transition: opacity 0.6s ease-in-out 0s;
+}
+.can-hover .fade-in-on-hover:hover {
+	opacity: 1 !important;
+}
+.js-fade-in {
+	opacity: 1 !important;
 }

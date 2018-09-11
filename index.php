@@ -71,7 +71,7 @@
 					</div>
 					<a href="secret-soil/pricing" class="tile x2 fill-dark slow-reveal fade-up js_tile js_tile_1">
 						<div class="tile-background secret-soil">
-							<video class="slow-reveal js_video" data-src="media/tile-secret-soil.mp4" preload="auto" muted playsinline loop></video>
+							<video class="fade-in-on-hover js_video" data-src="media/tile-secret-soil.mp4" preload="auto" muted playsinline loop></video>
 						</div>
 						<div class="tile-content">
 							<div class="p text-uppercase">Secret Soil</div>
@@ -92,7 +92,7 @@
 					</div>
 					<a href="/another-sky" class="tile x1 fill-dark slow-reveal fade-right delay-40 js_tile js_tile_2">
 						<div class="tile-background another-sky">
-							<video class="slow-reveal js_video" data-src="media/tile-another-sky.mp4" preload="auto" muted playsinline loop></video>
+							<video class="fade-in-on-hover js_video" data-src="media/tile-another-sky.mp4" preload="auto" muted playsinline loop></video>
 						</div>
 						<div class="tile-content">
 							<div class="p text-uppercase">Another Sky</div>
@@ -143,6 +143,7 @@
 
 
 <!-- Plugins -->
+<script type="text/javascript" src="/plugins/lodash/lodash-v4.17.10-custom.min.js"></script>
 <script type="text/javascript" src="/plugins/lottie/lottie-light.v5.2.1.min.js"></script>
 
 <script type="text/javascript">
