@@ -145,6 +145,13 @@
 <!-- Plugins -->
 <script type="text/javascript" src="/plugins/lottie/lottie-light.v5.2.1.min.js"></script>
 
+<script type="text/javascript">
+
+	var __UI = { };
+	__UI.initialTileAnimationDuration = 3000;
+
+</script>
+
 <!-- JS Modules -->
 <script type="text/javascript" src="/js/modules/util.js"></script>
 <script type="text/javascript" src="/js/modules/disclaimer.js"></script>

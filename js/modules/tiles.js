@@ -13,6 +13,6 @@ $( function () {
 		$( ".js_tile_2" ).addClass( "done" );
 		$( ".js_contact_text" ).addClass( "done" );
 
-	}, 3000 );
+	}, __UI.initialTileAnimationDuration );
 
 } );
