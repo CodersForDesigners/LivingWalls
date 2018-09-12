@@ -121,36 +121,27 @@ onceVariableIsSet( "__SETTINGS.client.baseExperience" ).then( function ( baseExp
 		if ( $window.width() > 640 )
 			return;
 
-		var domTiles = $( ".js_tile" ).toArray().reverse();
-		for ( var _i = 0; _i < domTiles.length; _i += 1 ) {
+		var $tiles = $( ".js_tile" );
+		for ( var _i = 0; _i < $tiles.length; _i += 1 ) {
 
-			var $element = $( domTiles[ _i ] );
+			var $element = $( $tiles[ _i ] );
 
 			var scrollTop = $window.scrollTop();
-			var scrollBottom = $window.height() + scrollTop;
-			var elementHeight = $element.outerHeight();
+			// var scrollBottom = scrollTop + $window.height();
+			// var scrollMiddle = ( scrollTop + scrollBottom ) / 2;
+			var scrollMiddle = scrollTop + $window.height() / 2;
+			// var elementHeight = $element.outerHeight();
 			var elementTop = $element.position().top;
-			var elementBottom = elementTop + elementHeight;
+			// var elementBottom = elementTop + elementHeight;
+			var elementBottom = elementTop + $element.outerHeight();
 
-			// If the element is not even in the viewport, move on
-			if ( scrollTop > elementBottom )
-				continue;
-			if ( scrollBottom < elementTop )
-				continue;
-
-			var amountVisibile = elementHeight;
-			if ( scrollTop - elementTop > 0 )
-				amountVisibile -= scrollTop - elementTop;
-			if ( elementBottom - scrollBottom > 0 )
-				amountVisibile -= elementBottom - scrollBottom;
-
-			if ( amountVisibile / elementHeight < 0.75 ) {
-				continue;
+			// If the viewport's vertical center cuts through the element,
+			// 	fade it into color and play the video
+			if ( elementTop < scrollMiddle && elementBottom > scrollMiddle ) {
+				$tiles.trigger( "mouseleave" )
+				$element.trigger( "mouseenter" )
+				return;
 			}
-
-			$( domTiles ).trigger( "mouseleave" )
-			$element.trigger( "mouseenter" )
-			return;
 
 		}
 
