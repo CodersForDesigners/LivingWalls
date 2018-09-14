@@ -45,6 +45,8 @@
 
 	<?php echo gethead(); ?>
 
+	<meta name="google-site-verification" content="C3jXzBZMeLWvWIgL5OybxRt8o3_8fRlJVxihxDeNYC8">
+
 </head>
 
 <body id="body" class="body">
