@@ -41,15 +41,28 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Page Title | Page Name -->
-	<title>LivingWalls</title>
+	<title>The Secretly Kickass 4BHK House | Secret Soil | LivingWalls</title>
 
 	<?php echo gethead(); ?>
 
 	<meta name="google-site-verification" content="C3jXzBZMeLWvWIgL5OybxRt8o3_8fRlJVxihxDeNYC8">
 
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-M356D67');</script>
+	<!-- End Google Tag Manager -->
+
 </head>
 
 <body id="body" class="body">
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M356D67"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 
 <!--  ★  MARKUP GOES HERE  ★  -->
 
@@ -77,7 +90,7 @@
 						</div>
 						<div class="tile-content">
 							<div class="p text-uppercase">Secret Soil</div>
-							<div class="h2 thin"><strong class="no-wrap">Secretly Kick-ass</strong><br><span class="h3">4 BHK</span> <strong>Houses</strong></div>
+							<div class="h2 thin"><strong class="no-wrap">Secretly Kickass</strong><br><span class="h3">4 BHK</span> <strong>Houses</strong></div>
 							<div class="enter">
 								<div class="icon">
 									<img src="/media/icon-enter.svg">
