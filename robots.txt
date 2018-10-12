@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://livingwalls.in/sitemap.xml
+Sitemap: https://livingwalls.in/sitemap.xml

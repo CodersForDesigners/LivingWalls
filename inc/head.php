@@ -27,7 +27,7 @@
 	<!-- <link rel="author" href="humans.txt"> -->
 
 	<!-- Provides information about an author or another person -->
-	<link rel="me" href="http://lazaro.in" type="text/html">
+	<link rel="me" href="https://lazaro.in" type="text/html">
 	<link rel="me" href="mailto:sonia@lazaro.in">
 	<!-- <link rel="me" href="sms:+15035550125"> -->
 
@@ -41,9 +41,9 @@
 	<!-- Set the base URL for all relative URLs within the document -->
 	<base href="/"><!-- ( example : http://example.com/page.html ) -->
 	<!-- Links to top level resource in an hierarchical structure -->
-	<link rel="index" href="http://livingwalls.in/">
+	<link rel="index" href="https://livingwalls.in/">
 	<!-- Helps prevent duplicate content issues -->
-	<link rel="canonical" href="http://livingwalls.in/">
+	<link rel="canonical" href="https://livingwalls.in/">
 	<!-- Control the behavior of search engine crawling and indexing -->
 	<meta name="robots" content="index,follow"><!-- All Search Engines -->
 	<meta name="googlebot" content="index,follow"><!-- Google Specific -->
@@ -92,10 +92,10 @@
 	- -->
 	<!-- Facebook Open Graph -->
 	<!-- <meta property="fb:app_id" content="123456789"> -->
-	<meta property="og:url" content="http://livingwalls.in/">
+	<meta property="og:url" content="https://livingwalls.in/">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="The Secretly Kickass 4BHK House | Secret Soil | LivingWalls">
-	<meta property="og:image" content="http://livingwalls.in/media/social/facebook.jpg">
+	<meta property="og:image" content="https://livingwalls.in/media/social/facebook.jpg">
 	<meta property="og:description" content="For the last two years, we have been designing a kick-ass project called Secret Soil. It's a secure, gated neighbourhood of Secretly Kickass Houses on the Hennur Main Road.">
 	<meta property="og:site_name" content="LivingWalls">
 	<meta property="og:locale" content="en_US">
