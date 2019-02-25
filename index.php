@@ -41,7 +41,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Page Title | Page Name -->
-	<title>The Secretly Kickass 4BHK House | Secret Soil | LivingWalls</title>
+	<title>OFFICIAL LivingWalls | The Secretly Kickass 4BHK House | Secret Soil</title>
 
 	<?php echo gethead(); ?>
 
