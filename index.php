@@ -8,7 +8,7 @@
 	/*
 	 * Versioning Assets to invalidate the browser cache
 	 */
-	$ver = '?v=20180912_2';
+	$ver = '?v=20190327';
 
 	// included external php files with functions.
 	require ('inc/head.php');
@@ -84,7 +84,7 @@
 						<!-- <img src="/media/lw-logo-brand-small.svg"> -->
 						<div id="lw-logo-brand-rectangle" class="image"></div>
 					</div>
-					<a href="secret-soil/pricing" class="tile x2 fill-dark slow-reveal fade-up js_tile js_tile_1">
+					<a href="secret-soil" target="_blank" class="tile x2 fill-dark slow-reveal fade-up js_tile js_tile_1">
 						<div class="tile-background secret-soil">
 							<video class="fade-in-on-hover js_video" data-src="media/tile-secret-soil.mp4" preload="auto" muted playsinline loop></video>
 						</div>
@@ -105,7 +105,7 @@
 						<!-- <img src="/media/lw-logo-brand-large.svg"> -->
 						<div id="lw-logo-brand-square" class="image"></div>
 					</div>
-					<a href="/another-sky" class="tile x1 fill-dark slow-reveal fade-right delay-40 js_tile js_tile_2">
+					<a href="/another-sky" target="_blank" class="tile x1 fill-dark slow-reveal fade-right delay-40 js_tile js_tile_2">
 						<div class="tile-background another-sky">
 							<video class="fade-in-on-hover js_video" data-src="media/tile-another-sky.mp4" preload="auto" muted playsinline loop></video>
 						</div>
