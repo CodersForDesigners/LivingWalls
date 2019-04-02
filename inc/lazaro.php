@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="columns small-12 large-8 large-offset-2 xlarge-6 xlarge-offset-3">
 			<a href="https://lazaro.in/" target="_blank" class="lazaro-link ga_lazaro_click">
-				<strong>www.Lazaro.in</strong> — <span>Communication Strategy and Implementation</span>
+				<strong>www.Lazaro.in</strong> — <span>Marketing Strategy and Implementation</span>
 			</a>
 		</div>
 	</div>
